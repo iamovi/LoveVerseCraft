@@ -1,3 +1,3 @@
 # LoveVerseCraft
-It will generate random Love Poem 💖
-.... to see how it works!
+It will generate random Love Poem for You 💖
+[Click here](https://lovepoem-generator.netlify.app/) to see how it Works!
