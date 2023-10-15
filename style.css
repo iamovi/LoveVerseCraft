@@ -73,7 +73,9 @@ button:hover {
 
 
 
-
+footer .self {
+    text-align: center;
+}
 
 /*for falling of love*/
 
@@ -102,7 +104,4 @@ button:hover {
     }
 }
   
-footer .self {
-    text-align: center;
-    margin-top: 40px;
-}
+
