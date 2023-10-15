@@ -86,11 +86,12 @@ button:hover {
     left: 0;
     right: 0;
     margin: auto;
+    transform: translateY(-100vh);
   }
   
 @keyframes fall {
     0% {
-      transform: translateY(-100%);
+      transform: translateY(-20vh);
       opacity: 1;
     }
     100% {
