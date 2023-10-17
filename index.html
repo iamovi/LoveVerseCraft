@@ -25,6 +25,27 @@
     </div>
     <span class="self">❤🧡💛💚💙💜🤎🖤🤍</span><br>
 
+    <!-- for audio -->
+    <audio id="myAudio">
+        <source src="yoyolove.mp3" type="audio/mpeg">
+      </audio>
+      
+      <button style="background-color: black;" id="playPauseButton" onclick="togglePlayPause()">Play Love</button>
+      
+      <script>
+        var audio = document.getElementById("myAudio");
+        var playPauseButton = document.getElementById("playPauseButton");
+      
+        function togglePlayPause() {
+          if (audio.paused) {
+            audio.play();
+            playPauseButton.textContent = "Pause";
+          } else {
+            audio.pause();
+            playPauseButton.textContent = "Play";
+          }
+        }
+      </script>
 
 
 
