@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.emoji-list {
+  margin-top: 40px;
+    font-size: 2em;
+}
+
+.emoji-container {
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.emoji-container:hover {
+    transform: scale(1.2);
+}
+
+.poem-container {
+    margin: 20px;
+}
+
+#poem {
+  text-align-last: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#back-button {
+    padding: 10px;
+}
