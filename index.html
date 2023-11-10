@@ -26,29 +26,26 @@
     <span class="self">❤🧡💛💚💙💜🤎🖤🤍</span><br>
 
     <!-- for audio -->
-    <audio id="myAudio">
-        <source src="yoyolove.mp3" type="audio/mpeg">
-      </audio>
-      
-      <button style="background-color: black;" id="playPauseButton" onclick="togglePlayPause()">Play Love</button>
-      
-      <script>
+    <audio id="myAudio" loop>
+        <source src="https://ik.imagekit.io/iamovi/LoveVerseCraft/tree,stone.mp3?updatedAt=1699619055594" type="audio/mpeg">
+    </audio>
+    
+    <button style="background-color: black;" id="playPauseButton" onclick="togglePlayPause()">Play Love</button>
+    
+    <script>
         var audio = document.getElementById("myAudio");
         var playPauseButton = document.getElementById("playPauseButton");
       
         function togglePlayPause() {
-          if (audio.paused) {
-            audio.play();
-            playPauseButton.textContent = "Pause";
-          } else {
-            audio.pause();
-            playPauseButton.textContent = "Play";
-          }
+            if (audio.paused) {
+                audio.play();
+                playPauseButton.textContent = "Pause";
+            } else {
+                audio.pause();
+                playPauseButton.textContent = "Play";
+            }
         }
-      </script>
-
-
-
+    </script>
 
     <script src="./lovepoem.js"></script> <!--poem js file-->
     <script src="./script.js"></script>
